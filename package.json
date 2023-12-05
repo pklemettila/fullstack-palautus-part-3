@@ -7,7 +7,7 @@
     "dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
-	"build:ui": "rm -rf build && cd c://users//cydas//fullstack-palautus-2023//osa2//puhelinluettelo && npm run build && cp -r dist C://Users//cydas//fullstack-part-3",
+	"build:ui": "rm -rf build && cd c://users//cydas//fullstack-palautus-2023//osa2//puhelinluettelo && npm run build && cp -r dist C://Users//cydas//fullstack-palautus-part-3",
     "deploy:full": "npm run build:ui && git add . && git commit -m uibuild && git push"
   },
   "author": "Pauli Klemettilä",
